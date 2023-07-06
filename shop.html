@@ -1,0 +1,557 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <title>F_Fusion</title>
+    <link rel="icon" type="image" href="img/favicon.ico">
+    <!-- Font Awesome -->   
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" />
+    <!-- MDB -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.3.1/mdb.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section id="header">
+        <a href="index.html" class="logo"><img src="img/logo.png" alt=""></a>
+        <ul id="navbar">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="shop.html" class="active">Shop</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="cart.html"><i class="fa-solid fa-bag-shopping fa-beat"></i></a></li>
+            <a href="#" id="close"><i class="fas fa-times"></i></a>
+        </ul>
+        <div id="mobile">
+            <a href="cart.html"><i id="bag" class="fa-solid fa-bag-shopping fa-beat"></i></a>
+            <i id="icon" class="fas fa-outdent"></i>
+        </div>
+    </section>
+    <section id="shop-header">
+        <h2>#stayhome</h2>
+        <p>Save more with coupons & up to 70% off!</p>
+    </section>
+    <section id="product1" class="section-p1">
+        <h2>Men's Collections</h2>
+        <p>New Modern Design Collections</p>
+        <div class="pro-container">
+            <div class="pro" onclick="openProductPage(1)">
+                <img src="img/products/1/2.webp" alt="">
+                <div class="des">
+                    <span>H&M</span>
+                    <h5>Relaxed Fit Patterned resort shirt</h5>
+                    <h6>Black/Leaf-patterned</h6>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$60</h4>
+                </div>
+                <a href="#"><i class="fas fa-shopping-cart fa-beat cart"></i></a>
+            </div>
+            <div class="pro" onclick="openProductPage(2)">
+                <img src="img/products/2/1.webp" alt="">
+                <div class="des">
+                    <span>H&M</span>
+                    <h5>Relaxed Fit Patterned resort shirt</h5>
+                    <h6>Orange/Leaf-patterned</h6>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$68</h4>
+                </div>
+                <a href="#"><i class="fas fa-shopping-cart fa-beat cart"></i></a>
+            </div>
+            <div class="pro" onclick="openProductPage(3)">
+                <img src="img/products/3/2.webp" alt="">
+                <div class="des">
+                    <span>H&M</span>
+                    <h5>Relaxed Fit Patterned resort shirt</h5>
+                    <h6>Black/Leaf-patterned</h6>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$70</h4>
+                </div>
+                <a href="#"><i class="fas fa-shopping-cart fa-beat cart"></i></a>
+            </div>
+            <div class="pro" onclick="openProductPage(4)">
+                <img src="img/products/4/2.webp" alt="">
+                <div class="des">
+                    <span>H&M</span>
+                    <h5>Relaxed Fit Patterned resort shirt</h5>
+                    <h6>Light beige/Flowers</h6>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$66</h4>
+                </div>
+                <a href="#"><i class="fas fa-shopping-cart fa-beat cart"></i></a>
+            </div>
+            <div class="pro" onclick="openProductPage(5)">
+                <img src="img/products/5/1.webp" alt="">
+                <div class="des">
+                    <span>H&M</span>
+                    <h5>Regular Fit Short-sleeved lyocell shirt</h5>
+                    <h6>Dark brown/Patterned</h6>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$80</h4>
+                </div>
+                <a href="#"><i class="fas fa-shopping-cart fa-beat cart"></i></a>
+            </div>
+            <div class="pro" onclick="openProductPage(6)">
+                <img src="img/products/6/1.webp" alt="">
+                <div class="des">
+                    <h5>Regular Fit Short-sleeved lyocell shirt</h5>
+                    <h6>Sky Blue/Patterned</h6>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$77</h4>
+                </div>
+                <a href="#"><i class="fas fa-shopping-cart fa-beat cart"></i></a>
+            </div>
+            <div class="pro" onclick="openProductPage(7)">
+                <img src="img/products/7/1.webp" alt="">
+                <div class="des">
+                    <span>H&M</span>
+                    <h5>Regular Fit Short-sleeved lyocell shirt</h5>
+                    <h6>Black Leaf/Patterned</h6>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$62</h4>
+                </div>
+                <a href="#"><i class="fas fa-shopping-cart fa-beat cart"></i></a>
+            </div>
+            <div class="pro" onclick="openProductPage(8)">
+                <img src="img/products/8/1.webp" alt="">
+                <div class="des">
+                    <span>H&M</span>
+                    <h5>Regular Fit Short-sleeved lyocell shirt</h5>
+                    <h6>Black/White striped</h6>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$69</h4>
+                </div>
+                <a href="#"><i class="fas fa-shopping-cart fa-beat cart"></i></a>
+            </div>
+            <div class="pro" onclick="openProductPage(9)">
+                <img src="img/products/9/1.webp" alt="">
+                <div class="des">
+                    <span>H&M</span>
+                    <h5>Regular Fit Short-sleeved lyocell shirt</h5>
+                    <h6>Red/Palm trees</h6>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$90</h4>
+                </div>
+                <a href="#"><i class="fas fa-shopping-cart fa-beat cart"></i></a>
+            </div>
+            <div class="pro" onclick="openProductPage(10)">
+                <img src="img/products/10/1.webp" alt="">
+                <div class="des">
+                    <span>H&M</span>
+                    <h5>Regular Fit Short-sleeved lyocell shirt</h5>
+                    <h6>Black/White checked</h6>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$98</h4>
+                </div>
+                <a href="#"><i class="fas fa-shopping-cart fa-beat cart"></i></a>
+            </div>
+            <div class="pro" onclick="openProductPage(11)">
+                <img src="img/products/11/1.webp" alt="">
+                <div class="des">
+                    <span>H&M</span>
+                    <h5>Relaxed Fit Terry shirt</h5>
+                    <h6>Purple</h6>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$78</h4>
+                </div>
+                <a href="#"><i class="fas fa-shopping-cart fa-beat cart"></i></a>
+            </div>
+            <div class="pro" onclick="openProductPage(12)">
+                <img src="img/products/12/1.webp" alt="">
+                <div class="des">
+                    <span>H&M</span>
+                    <h5>Relaxed Fit Linen resort shirt</h5>
+                    <h6>Light beige/Flower</h6>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$77</h4>
+                </div>
+                <a href="#"><i class="fas fa-shopping-cart fa-beat cart"></i></a>
+            </div>
+            <div class="pro" onclick="openProductPage(13)">
+                <img src="img/products/13/1.webp" alt="">
+                <div class="des">
+                    <span>H&M</span>
+                    <h5>Slim Jeans</h5>
+                    <h6>Black</h6>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$84</h4>
+                </div>
+                <a href="#"><i class="fas fa-shopping-cart fa-beat cart"></i></a>
+            </div>
+            <div class="pro" onclick="openProductPage(14)">
+                <img src="img/products/14/1.webp" alt="">
+                <div class="des">
+                    <span>H&M</span>
+                    <h5>Slim Jeans</h5>
+                    <h6>Dark Grey</h6>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$100</h4>
+                </div>
+                <a href="#"><i class="fas fa-shopping-cart fa-beat cart"></i></a>
+            </div>
+            <div class="pro" onclick="openProductPage(15)">
+                <img src="img/products/15/1.webp" alt="">
+                <div class="des">
+                    <span>H&M</span>
+                    <h5>Slim Jeans</h5>
+                    <h6>Dark Blue</h6>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$82</h4>
+                </div>
+                <a href="#"><i class="fas fa-shopping-cart fa-beat cart"></i></a>
+            </div>
+            <div class="pro" onclick="openProductPage(16)">
+                <img src="img/products/16/1.webp" alt="">
+                <div class="des">
+                    <span>H&M</span>
+                    <h5>Loose Jeans</h5>
+                    <h6>Olive green</h6>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$92</h4>
+                </div>
+                <a href="#"><i class="fas fa-shopping-cart fa-beat cart"></i></a>
+            </div>
+            <div class="pro" onclick="openProductPage(17)">
+                <img src="img/products/17/1.webp" alt="">
+                <div class="des">
+                    <span>H&M</span>
+                    <h5>Slim Jeans</h5>
+                    <h6>White</h6>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$92</h4>
+                </div>
+                <a href="#"><i class="fas fa-shopping-cart fa-beat cart"></i></a>
+            </div>
+            <div class="pro" onclick="openProductPage(18)">
+                <img src="img/products/18/1.webp" alt="">
+                <div class="des">
+                    <span>H&M</span>
+                    <h5>Slim Jeans</h5>
+                    <h6>Dark denim blue</h6>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$92</h4>
+                </div>
+                <a href="#"><i class="fas fa-shopping-cart fa-beat cart"></i></a>
+            </div>
+            <div class="pro" onclick="openProductPage(19)">
+                <img src="img/products/19/1.webp" alt="">
+                <div class="des">
+                    <span>H&M</span>
+                    <h5>Regular Fit Ripstop cargo trousers</h5>
+                    <h6>Khaki green/Patterned</h6>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$92</h4>
+                </div>
+                <a href="#"><i class="fas fa-shopping-cart fa-beat cart"></i></a>
+            </div>
+            <div class="pro" onclick="openProductPage(20)">
+                <img src="img/products/20/1.webp" alt="">
+                <div class="des">
+                    <span>H&M</span>
+                    <h5>Regular Fit Ripstop cargo trousers</h5>
+                    <h6>Light beige</h6>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$92</h4>
+                </div>
+                <a href="#"><i class="fas fa-shopping-cart fa-beat cart"></i></a>
+            </div>
+            <div class="pro" onclick="openProductPage(21)">
+                <img src="img/products/21/1.webp" alt="">
+                <div class="des">
+                    <span>H&M</span>
+                    <h5>Regular Fit Ripstop cargo trousers</h5>
+                    <h6>Black</h6>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$92</h4>
+                </div>
+                <a href="#"><i class="fas fa-shopping-cart fa-beat cart"></i></a>
+            </div>
+            <div class="pro" onclick="openProductPage(22)">
+                <img src="img/products/22/1.webp" alt="">
+                <div class="des">
+                    <span>H&M</span>
+                    <h5>Regular Fit Sweatpants</h5>
+                    <h6>Beige</h6>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$92</h4>
+                </div>
+                <a href="#"><i class="fas fa-shopping-cart fa-beat cart"></i></a>
+            </div>
+            <div class="pro" onclick="openProductPage(23)">
+                <img src="img/products/23/1.webp" alt="">
+                <div class="des">
+                    <span>H&M</span>
+                    <h5>Regular Fit Sweatpants</h5>
+                    <h6>Beige</h6>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$92</h4>
+                </div>
+                <a href="#"><i class="fas fa-shopping-cart fa-beat cart"></i></a>
+            </div>
+            <div class="pro" onclick="openProductPage(24)">
+                <img src="img/products/24/1.webp" alt="">
+                <div class="des">
+                    <span>H&M</span>
+                    <h5>Regular Fit Sweatpants</h5>
+                    <h6>Black</h6>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$92</h4>
+                </div>
+                <a href="#"><i class="fas fa-shopping-cart fa-beat cart"></i></a>
+            </div>
+        </div>
+    </section>
+    <section id="pages" class="section-p1">
+        <a href="shop.html" class="active">1</a>
+        <a href="shop2.html">2</a>
+        <a href="#"><i class="fas fa-long-arrow-alt-right"></i></a>
+    </section>
+    <section id="newsletter" class="section-p1 section-m1">
+        <div class="row">
+            <div class="col-lg-6">
+                <h4>Sign Up For Newsletters</h4>
+                <p>Get E-mail updates about our lastest shop and <span>special offers.</span></p>
+            </div>
+            <div class="col-lg-6 form">
+                <input type="text" name="" placeholder="Your Email address" id="">
+                <button class="normal">Sign Up</button>
+            </div>
+        </div>
+    </section>
+    <section id="footer" class="section-p1">
+        <footer class="text-center text-lg-start bg-white text-muted">
+            <div class="d-flex justify-content-center justify-content-lg-between">
+                <div class="me-5 d-flex align-items-center d-none d-lg-block">
+                    <span>Get connected with us on social networks:</span>
+                </div>
+                <div class="text-end">
+                    <a class="btn text-white btn-floating m-1 me-3" style="background-color: #55acee;" href="https://twitter.com/AniketK66947378"
+                        role="button"><i class="fab fa-twitter"></i></a>
+
+                    <a class="btn text-white btn-floating m-1 me-3" style="background-color: #dd4b39;" href="#!"
+                        role="button"><i class="fab fa-google"></i></a>
+
+
+                    <a class="btn text-white btn-floating m-1 me-3" style="background-color: #ac2bac;" href="https://www.instagram.com/aniket28_kumar/"
+                        role="button"><i class="fab fa-instagram"></i></a>
+
+
+                    <a class="btn text-white btn-floating m-1 me-3" style="background-color: #0082ca;" href="https://www.linkedin.com/in/aniket-kumar-1b01a3237/"
+                        role="button"><i class="fab fa-linkedin-in"></i></a>
+                    <a class="btn text-white btn-floating m-1" style="background-color: #333333;" href="https://github.com/Aniket2805"
+                        role="button"><i class="fab fa-github"></i></a>
+                </div>
+            </div>
+            <section class="contact">
+                <div class="text-md-start mt-5">
+                    <div class="row mt-3">
+                        <div class="col-md-3 col-lg-4 mb-4">
+                            <a href="index.html" class="logo"><img src="img/logo.png" alt=""></a>
+                            <p><span>Contact Us</span></p>
+                            <ul>
+                                <li><span>Address:</span> O-49,Back Side Chanakya Place-2, New Delhi-110059</li>
+                                <li><span>Phone:</span> 8800139664</li>
+                                <li><span>Hours:</span> 10:00-18:00, Mon-Sat.</li>
+                            </ul>
+                        </div>
+                        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                            <h5 class="text-uppercase fw-bold mb-4"> About </h5>
+                            <p> <a href="about.html" class="text-reset">About Us</a> </p>
+                            <p> <a href="#!" class="text-reset">Delivery Information<a>
+                            </p>
+                            <p> <a href="#!" class="text-reset">Privacy Policy</a> </p>
+                            <p> <a href="#!" class="text-reset">Terms & Conditions</a> </p>
+                            <p> <a href="contact.html" class="text-reset">Contact Us</a> </p>
+                        </div>
+                        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                            <h5 class="text-uppercase fw-bold mb-4"> My Account </h5>
+                            <p> <a href="#!" class="text-reset">Sign In</a> </p>
+                            <p> <a href="cart.html" class="text-reset">View Cart</a> </p>
+                            <p> <a href="#!" class="text-reset">My Wishlist</a> </p>
+                            <p> <a href="#!" class="text-reset">Track My Order</a> </p>
+                            <p> <a href="contact.html" class="text-reset">Help</a> </p>
+                        </div>
+                        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                            <h5 class="text-uppercase fw-bold mb-4">Install App</h5>
+                            <p>From App Store or Google Play</p>
+                            <div class="install">
+                                <a href=""><img src="img/pay/store.png" alt=""
+                                            style="height: 4rem; width: 10rem;"></a>
+                                <a href=""><img src="img/pay/google.png" alt=""
+                                            style="height: 4rem; width: 10rem;"></a>
+                            </div>
+                            <p>Secured Payment Gateways</p>
+                            <img src="img/pay/pay.png" alt="" style="width: 10rem;">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <div class="text-center">
+                © 2023 Copyright:
+                <a class="text-reset fw-bold" href="index.html">FashionFusion.com</a>
+            </div>
+        </footer>
+    </section>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+        crossorigin="anonymous"></script>
+    <!-- MDB -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.3.1/mdb.min.js"></script>
+    <script src="https://kit.fontawesome.com/eb6f606618.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
