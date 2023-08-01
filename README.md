@@ -85,8 +85,8 @@ This project is licensed under the [MIT License](LICENSE).
 
 For any questions, feedback, or collaborations, please feel free to reach out:
 
-- Name: Your Name
+- Name: Aniket Kumar
 - Email: aniketkumar2025it@gmail.com
-- LinkedIn: [Aniket Kumar](https://www.linkedin.com/in/aniket-kumar-1b01a3237/)
+- LinkedIn: [aniket-kumar-1b01a3237](https://www.linkedin.com/in/aniket-kumar-1b01a3237/)
 
 Thank you for visiting Fashion Fusion! Your support and interest are greatly appreciated. Enjoy exploring the website and stay fashionable! 🎉
